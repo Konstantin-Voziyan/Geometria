@@ -6,6 +6,9 @@ public class Circulo_KV extends FiguraGeometrica_KV {
 	
 	public Circulo_KV(double r, String tipoFigura) {
 		super(tipoFigura);
+		if (r < 0) {
+			r = Math.abs(r);
+		}
 		radio = r;
 	}
 
