@@ -19,5 +19,4 @@ public abstract class FiguraGeometrica {
 	public void setTipoFigura(String tipoFigura) {
 		this.tipoFigura = tipoFigura;
 	}
-
 }
