@@ -19,4 +19,8 @@ public abstract class FiguraGeometrica_KV {
 	public void setTipoFigura(String tipoFigura) {
 		this.tipoFigura = tipoFigura;
 	}
+	
+	public double semiPerimetro() {
+		return this.perimetro() / 2;
+	}
 }
